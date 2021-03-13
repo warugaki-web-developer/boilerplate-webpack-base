@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
+    "dev": "webpack serve",
     "lint:css": "stylelint ./**/*.{css,scss}",
     "lint-fix:css": "prettier --write ./**/*.{css,scss} && stylelint --fix ./**/*.{css,scss}",
     "lint:js": "eslint ./**/*.js",
@@ -45,6 +46,7 @@
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.19.0",
     "webpack": "^5.25.0",
-    "webpack-cli": "^4.5.0"
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
