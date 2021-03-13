@@ -21,5 +21,17 @@ module.exports = {
       template: path.resolve(__dirname, './src/template.html'),
       filename: 'index.html'
     })
-  ]
+  ],
+
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
+      }
+    ]
+  }
 }
