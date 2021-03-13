@@ -1,0 +1,12 @@
+$body-color: red;
+
+body {
+  color: $body-color;
+}
+
+.example {
+  display: grid;
+  user-select: none;
+  background: linear-gradient(to bottom, white, black);
+  transition: all 0.5s;
+}
